@@ -1,11 +1,14 @@
-.main > div {
-  text-align: center;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  height: 80vh;
-  padding: 10vh 0;
-}
+.main {
+  div {
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 80vh;
+    padding: 10vh 0;
+  }
+
+} 
 
 .burger {
   width: 40%;
@@ -193,4 +196,10 @@
 
 h1 {
   font-size: 3em;
+}
+@media only screen and (max-width: 576px) {
+  .button{
+    height: auto;
+    width: 180px
+  }
 }

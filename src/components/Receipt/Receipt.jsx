@@ -21,7 +21,7 @@ const Receipt = () => {
   const totalApagar = datos.reduce((prev, act) => prev + act, 0);
   return (
     <div className="container receipt">
-      Receipt
+      
       <button className="button" onClick={back}>
         {" "}
         volver
@@ -48,7 +48,7 @@ const Receipt = () => {
           </span>
         </section>
       ))}
-      <h2 className="receipt-row"> total{totalApagar} </h2>
+      <h2 className="receipt-row"> total<br></br> {totalApagar}$ </h2>
     </div>
   );
 };

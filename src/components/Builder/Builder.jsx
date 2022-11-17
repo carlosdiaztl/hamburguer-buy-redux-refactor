@@ -84,7 +84,6 @@ const Builder = () => {
 
   return (
     <div className="burger">
-      Builder
       {ingredientes.map((item, index) => (
         <button
           className="button"
